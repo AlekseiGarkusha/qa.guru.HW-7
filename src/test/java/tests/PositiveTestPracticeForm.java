@@ -103,8 +103,6 @@ public class PositiveTestPracticeForm extends TestBase {
   @MethodSource("data.MenuItems#testMenuItems")
   @DisplayName("Учебная - Проверка на наличие всех элементов меню")
   public void testMenuItems(List<String> expectedItems) {
-    open("https://demoqa.com/automation-practice-form");
-
     $(".header-wrapper").shouldHave(text("Elements")).click();
 
     for (String item : expectedItems) {
