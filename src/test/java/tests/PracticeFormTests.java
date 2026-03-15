@@ -27,7 +27,7 @@ import static com.codeborne.selenide.Condition.visible;
 import static com.codeborne.selenide.Selenide.*;
 
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)
-public class PositiveTestPracticeForm extends TestBase {
+public class PracticeFormTests extends TestBase {
 
   RegistrationPage registrationPage = new RegistrationPage();
   ComparisonFieldsComponent comparisonFields = new ComparisonFieldsComponent();
@@ -58,6 +58,7 @@ public class PositiveTestPracticeForm extends TestBase {
 
     comparisonFields.comparisonFieldsPositiveTest(testData);
   }
+
 
   @Test
   @DisplayName("Тест на заполнение только обязательных полей")
@@ -92,7 +93,7 @@ public class PositiveTestPracticeForm extends TestBase {
     registrationPage
       .typeUserName(testData.userFakerFirstName, testData.userFakerLastName)
       .typeUserEmail(testData.userFakerEmail)
-      .chooseGender(String.valueOf(gender))
+      .chooseGender(String.valueOf(gender.description))
       .typeUserNumber(testData.userFakerNumber)
       .clickBtnSubmit();
 

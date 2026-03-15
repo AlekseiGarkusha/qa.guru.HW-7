@@ -19,5 +19,4 @@ public class MenuItems {
         "Dynamic Properties"
       ));
   }
-
 }

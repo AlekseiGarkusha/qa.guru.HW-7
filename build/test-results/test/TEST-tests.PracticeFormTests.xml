@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="tests.PracticeFormTests" tests="12" skipped="0" failures="0" errors="0" timestamp="2026-03-15T19:26:17.130Z" hostname="DESKTOP-A8CGM4F" time="22.555">
+  <properties/>
+  <testcase name="Тест на заполнение только обязательных полей" classname="tests.PracticeFormTests" time="4.649"/>
+  <testcase name="[1] [Text Box, Check Box, Radio Button, Web Tables, Buttons, Links, Broken Links - Images, Upload and Download, Dynamic Properties]" classname="tests.PracticeFormTests" time="1.967"/>
+  <testcase name="Позитивный тест с проверкой на соответсвиет полей" classname="tests.PracticeFormTests" time="3.264"/>
+  <testcase name="[1] test@domain, invalid" classname="tests.PracticeFormTests" time="1.352"/>
+  <testcase name="[2] no-at-symbol.com, invalid" classname="tests.PracticeFormTests" time="1.31"/>
+  <testcase name="[3] testya@ya., invalid" classname="tests.PracticeFormTests" time="1.336"/>
+  <testcase name="[4] test@@ya.ru, invalid" classname="tests.PracticeFormTests" time="1.252"/>
+  <testcase name="[5] @@ya.ru, invalid" classname="tests.PracticeFormTests" time="1.324"/>
+  <testcase name="[6] Test@.ru, invalid" classname="tests.PracticeFormTests" time="1.408"/>
+  <testcase name="[1] MALE" classname="tests.PracticeFormTests" time="1.716"/>
+  <testcase name="[2] FEMALE" classname="tests.PracticeFormTests" time="1.456"/>
+  <testcase name="[3] OTHER" classname="tests.PracticeFormTests" time="1.439"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[[Test worker] INFO com.codeborne.selenide.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+мар. 15, 2026 10:26:18 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 145, returning the closest version; found: 144; Please update to a Selenium version that supports CDP version 145
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenide 7.14.0 / Selenium 4.40.0 / chrome 145.0.7632.160 windows
+]]></system-err>
+</testsuite>

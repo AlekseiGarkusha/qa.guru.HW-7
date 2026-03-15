@@ -2,9 +2,9 @@ package data;
 
 public enum Gender {
 
-    Male("Male"),
-    Female("Female"),
-    Other("Other");
+    MALE("Male"),
+    FEMALE("Female"),
+    OTHER("Other");
 
     public final String description;
 
